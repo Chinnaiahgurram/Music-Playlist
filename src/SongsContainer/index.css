@@ -1,0 +1,46 @@
+.total-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+}
+.img-names-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.names-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.name {
+  color: white;
+}
+.genre {
+  color: #3b82f6;
+}
+
+.duration-and-delete-container {
+  display: flex;
+  margin-right: 30px;
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.duration {
+  color: white;
+  margin-right: 10px;
+}
+.delete-icon {
+  /* color: white; */
+  margin-top: 20px;
+  height: 20px;
+  width: 30px;
+}
+
+.item {
+  list-style-type: none;
+}
